@@ -1,0 +1,21 @@
+-- Store the count of tagged databases in a temporary table
+CREATE OR REPLACE TEMPORARY TABLE TEMP_TAGGED_DATABASES AS
+SELECT 
+    COUNT(DISTINCT OBJECT_NAME) AS TAGGED_DATABASE_COUNT
+FROM 
+    SNOWFLAKE.ACCOUNT_USAGE.TAG_REFERENCES
+WHERE 
+    DOMAIN = 'DATABASE';
+
+-- Retrieve all databases and store the count in a temporary table
+SHOW DATABASES;
+
+-- Create a temporary table to hold the count of databases
+CREATE OR REPLACE TEMPORARY TABLE TEMP_TOTAL_DATABASES AS
+SELECT COUNT(*) AS TOTAL_DATABASES
+FROM TABLE(RESULT_SCAN(LAST_QUERY_ID()));
+
+-- Calculate the difference between total databases and tagged databases
+SELECT 
+     (SELECT TOTAL_DATABASES FROM TEMP_TOTAL_DATABASES) - 
+     (SELECT TAGGED_DATABASE_COUNT FROM TEMP_TAGGED_DATABASES) AS UNTAGGED_DATABASE_COUNT;

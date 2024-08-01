@@ -1,0 +1,6 @@
+--Change role
+USE ROLE ACCOUNTADMIN;
+-- Failure if e-mail is not verified
+ALTER RESOURCE MONITOR RM_COMPUTE_WH SET NOTIFY_USERS = (SARA);
+--Verify query
+SHOW RESOURCE MONITORS LIKE 'RM_COMPUTE_WH';
