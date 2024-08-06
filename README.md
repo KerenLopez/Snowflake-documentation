@@ -11,7 +11,7 @@ Este repositorio contiene documentación detallada relacionada con Snowflake, in
       <li><a href="https://github.com/KerenLopez/Snowflake-documentation/blob/8df9b9c0dfde7e85e1ca27508d33b59c799e2255/Gestion%20de%20costos/Recursos%20de%20monitoreo/presentacion_recursos_de_monitoreo.pdf">Recursos de monitoreo</a></li>
       <li><a href="https://github.com/KerenLopez/Snowflake-documentation/blob/8df9b9c0dfde7e85e1ca27508d33b59c799e2255/Seguridad%20y%20control%20de%20acceso/Roles%20y%20privilegios/presentacion_roles.pdf">Roles y privilegios</a></li>
       <li><a href="https://github.com/KerenLopez/Snowflake-documentation/blob/8df9b9c0dfde7e85e1ca27508d33b59c799e2255/Seguridad%20y%20control%20de%20acceso/Cuentas%20de%20lectura/presentacion_cuentas_de_lectura.pdf">Cuentas de lectura</a></li>
-      <li><a href="https://github.com/KerenLopez/Snowflake-documentation/blob/8df9b9c0dfde7e85e1ca27508d33b59c799e2255/Gobernanza%20de%20datos%20y%20visibilidad/Dashboards/presentacion_dashboards.pdf">Dashboards</a></li>
+      <li><a href="https://github.com/KerenLopez/Snowflake-documentation/blob/a6b98e1fecf8234f9e1b62d7b8277facadc5f9d8/Gobernanza%20de%20datos%20y%20visibilidad/Dashboards/presentacion_dashboards.pdf">Dashboards</a></li>
       <li><a href="https://github.com/KerenLopez/Snowflake-documentation/blob/8df9b9c0dfde7e85e1ca27508d33b59c799e2255/Gobernanza%20de%20datos%20y%20visibilidad/Etiquetas/presentacion_etiquetas.pdf">Etiquetas</a></li>
       <li><a href="https://github.com/KerenLopez/Snowflake-documentation/blob/8df9b9c0dfde7e85e1ca27508d33b59c799e2255/Gobernanza%20de%20datos%20y%20visibilidad/Vistas/presentacion_vistas.pdf">Vistas</a></li>
     </ul>  
