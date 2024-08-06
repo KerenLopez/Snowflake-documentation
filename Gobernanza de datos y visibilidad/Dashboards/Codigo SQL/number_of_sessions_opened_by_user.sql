@@ -1,0 +1,9 @@
+SELECT 
+    USER_NAME,
+    COUNT(*) AS num_sessions
+FROM 
+    SNOWFLAKE.ACCOUNT_USAGE.SESSIONS
+GROUP BY 
+    USER_NAME
+ORDER BY 
+    num_sessions DESC;

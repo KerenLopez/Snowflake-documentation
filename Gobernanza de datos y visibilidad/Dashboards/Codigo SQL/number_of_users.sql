@@ -1,0 +1,4 @@
+SELECT
+    COUNT(*) AS total_users
+FROM
+    SNOWFLAKE.ACCOUNT_USAGE.USERS;
